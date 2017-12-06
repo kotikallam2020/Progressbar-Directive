@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body >
+
+	<div ng-app="app" ng-controller="progressCtrl">
+
+    	<div progressbar="value"></div> <br/>
+
+	    <select ng-model="value" ng-options="item as item + '%' for item in items"></select>
+</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+</body>
+</html>

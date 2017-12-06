@@ -1,0 +1,8 @@
+.ui-widget.ui-widget-content {
+	    border-radius: 5px;
+	    width:300px;
+}
+
+.ui-progressbar .ui-progressbar-value {
+	background-color: #054;
+}
